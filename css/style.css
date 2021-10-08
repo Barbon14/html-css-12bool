@@ -4,3 +4,14 @@
     margin: 0;
     padding: 0;
 }
+
+/* impostazioni debug colonne */
+[class*="col-"] {
+    min-height: 50px;
+    background-color: #2b6efe;
+    border: 1px solid white;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
