@@ -6,7 +6,7 @@
 }
 
 /* impostazioni debug colonne */
-[class*="col-"] {
+[class*="col"] {
     min-height: 50px;
     background-color: #2b6efe;
     border: 1px solid white;
@@ -14,4 +14,18 @@
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+.nasted {
+    background-color: #48e25e;
+    border-color: #2b6efe;
+}
+
+.external-nasted {
+    display: block;
+    padding: 10px;
+}
+
+.col {
+    margin-top: 30px;
 }
